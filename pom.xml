@@ -22,6 +22,7 @@
                 <configuration>
                    <source>1.8</source>
                    <target>1.8</target>
+                   <mainClass>com.affy.App</mainClass>
                 </configuration>
                 <version>1.2.1</version>
                 <executions>
@@ -31,9 +32,7 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <mainClass>com.affy.App</mainClass>
-                </configuration>
+                
             </plugin>
         </plugins>
     </build>
